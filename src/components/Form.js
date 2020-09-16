@@ -2,8 +2,8 @@ import React from 'react';
 
 class Form extends React.Component {
   state = {
-    firstName: "John",
-    lastName: "Henry"
+    firstName: "",
+    lastName: ""
   }
 
   handleFirstNameChange = event => {
